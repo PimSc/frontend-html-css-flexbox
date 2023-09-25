@@ -1,1 +1,125 @@
 /*Schrijf hier jouw CSS*/
+
+
+
+body{
+    Border: 3px dashed blue;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+nav{
+    Border: 3px dashed olive;
+    display: flex;
+    flex-direction: row;
+    /*min-height: 100vh;*/
+    /*min-width: 20vw;*/
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+
+
+.col-2 {
+    Border: 3px dashed black;
+    display: flex;
+    flex-direction: column;
+    /*min-height: 100vh;*/
+    /*min-width: 100vw;*/
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+
+
+header{
+    flex-basis: 10vw;
+    Border: 3px dashed deeppink;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /*min-height: 20vh;*/
+    min-width: 100vw;
+}
+
+
+
+
+/*main{*/
+/*    Border: 3px dashed red;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    flex-grow: 1;*/
+/*    flex-shrink: 1;*/
+/*    min-width: 100vw;*/
+/*}*/
+
+
+
+article {
+    /*flex-basis: 60vw;*/
+    /*flex-basis: 80vh;*/
+    Border: 3px dashed yellow;
+}
+
+
+
+footer{
+    flex-basis: 10vw;
+    Border: 3px dashed purple;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 20vh;
+}
+
+
+
+
+
+
+.inner-row {
+    Border: 3px dashed black;
+    display: flex;
+    flex-direction: row;
+    /*min-height: 80vh;*/
+    /*min-width: 80vw;*/
+    flex-basis: auto;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+    align-items: stretch;
+
+}
+
+
+
+
+.inner-col {
+    Border: 3px dashed orange;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*min-height: 100vh;*/
+    /*min-width: 100vw;*/
+    /*flex-basis: auto;*/
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+
+}
+
+
+
+aside{
+    Border: 3px dashed red;
+    display: flex;
+    flex-direction: row;
+    /*min-height: 60vh;*/
+    /*min-width: 20vw;*/
+    flex-grow: 0;
+    flex-shrink: 0;
+}

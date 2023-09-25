@@ -1,1 +1,66 @@
-/*Schrijf hier jouw CSS*/
+
+
+body{
+    /*Border: 3px dashed blue;*/
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+nav{
+    /*Border: 3px dashed olive;*/
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 20vw;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+
+
+.col-2 {
+    /*Border: 3px dashed black;*/
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+
+
+header{
+    flex-basis: 10vw;
+    /*border: 3px dashed deeppink;*/
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+main{
+    /*Border: 3px dashed red;*/
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+
+article {
+    flex-basis: auto;
+    /*Border: 3px dashed yellow;*/
+    flex-grow: 1;
+}
+
+footer{
+    flex-basis: 10vw;
+    /*Border: 3px dashed purple;*/
+    flex-grow: 0;
+    flex-shrink: 0;
+}

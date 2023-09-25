@@ -1,1 +1,136 @@
-/*Schrijf hier jouw CSS*/
+* {
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    /*Border: 3px dashed #F4978E;*/
+    height: 100vh;
+    width: 100vw
+
+}
+
+
+.col-1 {
+
+}
+
+.col-2  {
+
+    display: flex;
+        flex-direction: column;
+        flex-basis: auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+
+}
+
+header  {
+min-height: 20vh;
+}
+
+main {
+    /*Border: 3px dashed #F4978E;*/
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+}
+
+article {
+    flex-grow: 6;
+}
+
+aside {
+    flex-grow: 1;
+
+}
+
+footer {
+    min-height: 20vh;
+}
+
+nav {
+
+        min-height: 100vh;
+        min-width: 20vw;
+}
+
+
+
+
+/*body{*/
+/*    !*Border: 3px dashed blue;*!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+
+
+
+/*nav{*/
+/*    !*Border: 3px dashed olive;*!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    min-height: 100vh;*/
+/*    min-width: 20vw;*/
+/*    flex-grow: 0;*/
+/*    flex-shrink: 0;*/
+/*}*/
+
+
+
+
+/*.col-2 {*/
+/*    !*Border: 3px dashed black;*!*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-basis: auto;*/
+/*    flex-grow: 1;*/
+/*    flex-shrink: 1;*/
+/*}*/
+
+
+
+
+/*header{*/
+/*    !*Border: 3px dashed deeppink;*!*/
+/*    flex-basis: 10vw;*/
+/*    flex-grow: 0;*/
+/*    flex-shrink: 0;*/
+/*}*/
+
+
+/*main{*/
+/*    !*Border: 3px dashed red;*!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    flex-grow: 1;*/
+/*    flex-shrink: 1;*/
+/*    min-width: 100vw;*/
+/*}*/
+
+
+
+/*article {*/
+/*    !*Border: 3px dashed yellow;*!*/
+/*    flex-basis: 60vw;*/
+
+/*}*/
+
+
+/*    aside{*/
+/*        !*Border: 3px dashed greenyellow;*!*/
+/*        flex-basis: 40vw;*/
+/*        flex-grow: 0;*/
+/*        flex-shrink: 0;*/
+/*    }*/
+
+
+/*footer{*/
+/*    !*Border: 3px dashed purple;*!*/
+/*    flex-basis: 10vw;*/
+/*    flex-grow: 0;*/
+/*    flex-shrink: 0;*/
+/*}*/
