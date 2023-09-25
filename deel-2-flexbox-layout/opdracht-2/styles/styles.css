@@ -1,7 +1,6 @@
 
 
 body{
-    /*Border: 3px dashed blue;*/
     display: flex;
     flex-direction: row;
 }
@@ -10,7 +9,6 @@ body{
 
 
 nav{
-    /*Border: 3px dashed olive;*/
     display: flex;
     flex-direction: row;
     min-height: 100vh;
@@ -23,7 +21,6 @@ nav{
 
 
 .col-2 {
-    /*Border: 3px dashed black;*/
     display: flex;
     flex-direction: column;
     flex-basis: auto;
@@ -36,14 +33,12 @@ nav{
 
 header{
     flex-basis: 10vw;
-    /*border: 3px dashed deeppink;*/
     flex-grow: 0;
     flex-shrink: 0;
 }
 
 
 main{
-    /*Border: 3px dashed red;*/
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -54,13 +49,11 @@ main{
 
 article {
     flex-basis: auto;
-    /*Border: 3px dashed yellow;*/
     flex-grow: 1;
 }
 
 footer{
     flex-basis: 10vw;
-    /*Border: 3px dashed purple;*/
     flex-grow: 0;
     flex-shrink: 0;
 }
